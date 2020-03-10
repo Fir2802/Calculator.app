@@ -1,3 +1,26 @@
 class calculator
 {
-  static void
+  static void Main(string[] args)
+  {
+	  int a =10;
+	  int b =6;
+	  Console.WriteLine("Hasil Penambahan: {0} + {1} = {2} ", a, b, penamabahan(a, b)) ;
+	  Console.WriteLine("Hasil Pengurangan: {0} - {1} = {2}", a, b, pengurangan(a, b)) ;
+	  
+	  Console.WriteLine("\Tekan sembarang key untuk keluar") ;
+	  Console.ReadKey();
+	  
+	  
+  }
+   static int Penambahan(int a, int b);
+   
+  {
+	  return a + b;
+  }
+  static int Penambahan(int a, int b);
+  {
+	  return a- b;
+  }
+}
+  
+	  
